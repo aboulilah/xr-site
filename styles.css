@@ -227,17 +227,16 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    padding: 4rem 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
+    position: relative;
+    width: 100%;
     min-height: calc(100vh - 80px);
-    background: linear-gradient(rgba(10, 14, 39, 0.4), rgba(10, 14, 39, 0.4)), url('assets/hero.png') no-repeat center;
+
+    background: linear-gradient(rgba(10, 14, 39, 0.5), rgba(10, 14, 39, 0.6)),
+                url('assets/hero.png') no-repeat center;
     background-size: cover;
-    background-position: center right;
+
+    display: flex;
+    align-items: center;
 }
 
 .hero-content h1 {
@@ -262,6 +261,17 @@ a:hover {
 
 .hero-image {
     display: none;
+}
+
+.hero-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
 }
 
 /* About Section */
