@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "echo 'Static site, no build needed'",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
