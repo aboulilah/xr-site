@@ -263,7 +263,7 @@ a:hover {
     display: none;
 }
 
-.hero-content {
+.hero-inner {
     max-width: 1400px;
     margin: 0 auto;
     padding: 4rem 2rem;
